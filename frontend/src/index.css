@@ -15,11 +15,24 @@ main {
   flex: 1;
 }
 
+.card-title {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: rgb(233, 62, 119);
+  border: none;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+/* 
+.rating span {
+  color: #fad566;
+} */
 
 .product {
   border: 1px #fff solid;
