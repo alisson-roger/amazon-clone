@@ -6,11 +6,11 @@ const data = {
       category: 'Shirts',
       image: '/images/p1.jpg', // 679px × 829px
       price: 120,
-      countInStock: 10,
+      countInStock: 0,
       brand: 'Nike',
       rating: 4.5,
       numReviews: 10,
-      description: 'high quality shirt',
+      description: 'high quality shirt'
     },
     {
       name: 'Adidas Fit Shirt',
@@ -22,7 +22,7 @@ const data = {
       brand: 'Adidas',
       rating: 4.0,
       numReviews: 10,
-      description: 'high quality product',
+      description: 'high quality product'
     },
     {
       name: 'Nike Slim Pant',
@@ -34,7 +34,7 @@ const data = {
       brand: 'Nike',
       rating: 4.5,
       numReviews: 14,
-      description: 'high quality product',
+      description: 'high quality product'
     },
     {
       name: 'Adidas Fit Pant',
@@ -46,8 +46,8 @@ const data = {
       brand: 'Puma',
       rating: 4.5,
       numReviews: 10,
-      description: 'high quality product',
-    },
-  ],
-};
-export default data;
+      description: 'high quality product'
+    }
+  ]
+}
+export default data
