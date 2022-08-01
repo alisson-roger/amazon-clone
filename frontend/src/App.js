@@ -12,6 +12,7 @@ import { Store } from './Store'
 function App () {
   const { state } = useContext(Store)
   const { cart } = state
+
   return (
     <BrowserRouter>
       <div className='d-flex flex-column site-container'>

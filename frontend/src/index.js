@@ -10,9 +10,11 @@ import { StoreProvider } from './Store'
 ReactDOM.render(
   <React.StrictMode>
     <StoreProvider>
-      <HelmetProvider>
-        <App />
-      </HelmetProvider>
+      <StoreProvider>
+        <HelmetProvider>
+          <App />
+        </HelmetProvider>
+      </StoreProvider>
     </StoreProvider>
   </React.StrictMode>,
   document.getElementById('root')
